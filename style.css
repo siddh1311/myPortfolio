@@ -103,3 +103,69 @@ p {
 .highlight {
     color: #66bfbf;
 }
+
+@media (max-width: 768px) {
+    /* Adjust font sizes and spacing for smaller screens */
+    h1 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+    
+    h2, h3, h4, h5 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    
+    p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    
+    /* Adjust margins and padding for smaller screens */
+    .top-container {
+      padding: 10px;
+      margin-top: 20px;
+    }
+    
+    .title-text {
+      margin: 10px 0;
+    }
+    
+    .hero-container, .container {
+      padding: 10px;
+    }
+    
+    /* Adjust image sizes for smaller screens */
+    .top-cloud, .bot-cloud, .mountain, .profile {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .top-cloud {
+        top: 0px;
+        right: 200px;
+    }
+    
+    /* Update card widths for smaller screens */
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .centered-container {
+        display: flex;
+        justify-content: center; /* Horizontally center */
+        align-items: center;
+    }
+    
+    /* Center align navigation links */
+    .nav {
+      justify-content: center;
+    }
+    
+    /* Footer styles */
+    footer {
+      padding: 10px;
+    }
+}
